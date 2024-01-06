@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    background-image: url("avif.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+  }
+  #outer{
+    width: 100%;
+    height: 100%;
+}
+
+  
+  #main{
+    display: flex;
+    width: 100%;
+    position:fixed;
+    top: 0px;
+  }
+   #in1{
+    font-size: 35px;
+    color: orange;
+    margin-right: 5%;
+  } 
+  #an a{
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(9, 7, 7);
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-weight: 700;
+  }
+  #an a:hover{
+    /* background-color: #ffffff6a; */
+    text-decoration: underline;
+  }
+  #m input{
+    width: 50%;
+    height: 30px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    outline: none;
+    font-size: 15px;
+  }
+  #m button{
+    background-color: orange;
+    color: white;
+    padding: 8px 10px 8px 10px;
+    font-family: monospace;
+    letter-spacing: 0px;
+  }
+  #m{
+    position: absolute;
+    right: 0px;
+  }
+  /* #m input:focus{
+    border: 3px solid rgb(203, 203, 216);
+  } */
+  #m button:hover{
+    border-radius: 4px;
+    color: black;
+  }
+  
+  #sec h1{
+    color:black;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 5%;
+    font-family:monospace;
+    font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 25px;
+    outline: none;
+    animation: animate 5s linear infinite;
+  
+  }
+  #login{
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    height: 80%;
+  }
+  #login h1{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    margin-left: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.398);
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    color: orange;
+  }
+  
+  #login input{
+    color: #0f0a0a;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid orange;
+  }
+  ::placeholder {
+    color: #0d0202;
+  }
+  
+  #login button{
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: orange;
+    margin-left: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.398);
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+  }
+  #login h4{
+    text-align: center;
+    margin: 20px 60px 10px 60px;
+    color: #fff;
+  }
+  #login #one{
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 10px 10px 150px;
+    color:orange;
+    font-weight: 700;
+  }
+  #login h5{
+    text-align: center;
+    margin: 10px 60px 10px 60px;
+    color: #fff;
+    font-size: 25px;
+  }
+  #icons{
+    display: flex;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: -20px 0px 0px 40px;
+    text-decoration: none;
+  }
+  #icons a{
+    margin: 20px;
+  }
+  #icons img{
+    height: 25px;
+  }
+  
+  
+  
